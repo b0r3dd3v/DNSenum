@@ -4,16 +4,7 @@ DNSenum is a Bash script for DNS Enumeration. Try to resolve all subdomains of a
 ## Usage
 ```bash
 +
-+ Usage: ./dnsenum.sh -d <domain> [-f <file] [-n <dns server>] [-c]
-+
-+ -d <domain>       Domain name to test
-+ -f <file>         Subdomain list file to use for test
-+ -n <dns server>   DNS Server to use for query
-+ -c                Check for HTTP Server banner
-+ -v                Check Domain on VirusTotal
-+ -s                Set Shodan API Key in order to query it
-+ -r <result>       Show only result that match <result>
-+
++ Usage: ./dnsenum.sh -d api.volgograd.mavrocdn.org
 ```
 
 ## Example
